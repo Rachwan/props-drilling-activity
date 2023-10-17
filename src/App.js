@@ -16,7 +16,13 @@ export default function App() {
 
   return(
     <div className="container">
-      {/* Pass props into multiple components */}
+      {
+        /* 
+          Pass "loading" & "onSubmit" data as props into multiple components
+          App -> Layout -> Form -> Button
+          till reaches the Button component use the props 
+        */
+        }
       <Layout />
     </div>
   )
